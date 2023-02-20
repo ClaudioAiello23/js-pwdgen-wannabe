@@ -13,9 +13,9 @@
 
 'use strict';
 
-const firstName = prompt ('Digita il tuo nome');
-const lastName = prompt('Digita il tuo cognome');
-const favColor = prompt('Digita il tuo colore preferito');
+// const firstName = prompt ('Digita il tuo nome');
+// const lastName = prompt('Digita il tuo cognome');
+// const favColor = prompt('Digita il tuo colore preferito');
 
 document.getElementById('first_name').innerHTML= firstName;
 document.getElementById('last_name').innerHTML= lastName;

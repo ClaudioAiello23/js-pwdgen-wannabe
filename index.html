@@ -5,20 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(insicurissimo) password generator</title>
+    <!-- Inizio Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Fine Bootstrap -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>INSERIMENTO DATI</h1>
-    <div class="dataentry">
-        <ul>
-            <li>Nome: <span id="first_name"></span></li>
-            <li>Cognome: <span id="last_name"></span></li>
-            <li>Colore preferito: <span id="fav_color"></span></li>
-        </ul>
+    <div class="container">
+        <header class="flex">
+            <div class="h_container"></div>
+        </header>
+        <main class="flex">
+            <div class="container">
+                <h1 class="text-center">INSERIMENTO DATI</h1>
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <div class="dataentry">
+                            <ul class="list-unstyled">
+                                <li>Nome: <span id="first_name"></span></li>
+                                <li>Cognome: <span id="last_name"></span></li>
+                                <li>Colore preferito: <span id="fav_color"></span></li>
+                            </ul>
+                        </div>
+                        <div class="fw-bold">Password creata: <span id="user_password"></span></div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
-    <div>Password creata: <span id="user_password"></span></div>
-
 
     <script type="text/javascript" src="js/main.js"></script>
 </body>

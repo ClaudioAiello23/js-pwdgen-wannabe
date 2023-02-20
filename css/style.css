@@ -1,18 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.flex{
+    display: flex;
 }
 
+body{
+    background-color: aliceblue;   
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    justify-content: center;
+}
+
+
+.h_container{
+    height:300px;
+    width: 800px;
+    background-image: url(../img/passgen.png);
+    background-repeat: no-repeat;
+}
+
+
+main{
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+
+}
 
 h1{
     color: blue;
     margin-bottom: 20px;
 }
 
-body{
-    padding: 30px;
-}
 
 .dataentry ul li{
     padding: 10px 0;
