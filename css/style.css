@@ -1,15 +1,6 @@
-.flex{
-    display: flex;
-}
 
 body{
     background-color: aliceblue;   
-    width: 1200px;
-    margin: 0 auto;
-}
-
-header{
-    justify-content: center;
 }
 
 
@@ -21,22 +12,10 @@ header{
 }
 
 
-main{
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-
-}
-
-h1{
+main h1{
     color: blue;
-    margin-bottom: 20px;
 }
 
-
-.dataentry ul li{
-    padding: 10px 0;
-}
 
 #first_name, 
 #last_name, 
