@@ -17,3 +17,16 @@ body{
 .dataentry ul li{
     padding: 10px 0;
 }
+
+#first_name, 
+#last_name, 
+#fav_color{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#user_password{
+    font-size: 30px;
+    font-weight: bold;
+}
