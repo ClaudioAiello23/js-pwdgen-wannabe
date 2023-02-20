@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: blue;
+    margin-bottom: 20px;
+}
+
+body{
+    padding: 30px;
+}
+
+.dataentry ul li{
+    padding: 10px 0;
+}
