@@ -28,9 +28,11 @@ document.getElementById('last_name').innerHTML= lastName;
 document.getElementById('fav_color').innerHTML= favColor;
 
 
+
 // Crea variabile che concateni le 3 variabili precedentemente 
 // inizializzate con l'aggiunta della scritta '89'
 const userPassword = firstName + lastName + favColor + '89';
+
 
 // Scrivi il valore della nuova variabile password nella pagina web, 
 // in un campo collegato all'id dell'HTML
@@ -40,6 +42,8 @@ document.getElementById('user_password').innerHTML= userPassword;
 // Stampa sulla console Inspector della pagina web il contenuto della
 // variabile userPassword
 console.log(userPassword);
+
+
 
 
 
