@@ -28,10 +28,29 @@ document.getElementById('last_name').innerHTML= lastName;
 document.getElementById('fav_color').innerHTML= favColor;
 
 
-
+// -----------------------------------------------------
+// SOLUZIONE A (CONCATENAZIONE VARIABILI) - disattivata
 // Crea variabile che concateni le 3 variabili precedentemente 
 // inizializzate con l'aggiunta della scritta '89'
-const userPassword = firstName + lastName + favColor + '89';
+// const userPassword = firstName + lastName + favColor + '89';
+
+
+// Scrivi il valore della nuova variabile password nella pagina web, 
+// in un campo collegato all'id dell'HTML
+// document.getElementById('user_password').innerHTML= userPassword;
+
+
+// Stampa sulla console Inspector della pagina web il contenuto della
+// variabile userPassword
+// console.log(userPassword);
+
+
+// -----------------------------------------------------
+// SOLUZIONE B (INTERPOLAZIONE VARIABILI) - attivata
+// Crea variabile che concateni tramite interpolazione le
+// 3 variabili precedentemente inizializzate con l'aggiunta della scritta '89'
+// e racchiudere tutto con gli apici di tipo backtick (tastierino alt+96)
+const userPassword = `${firstName}${lastName}${favColor}89`;
 
 
 // Scrivi il valore della nuova variabile password nella pagina web, 
